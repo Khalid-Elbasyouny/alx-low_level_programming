@@ -1,8 +1,9 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
- * main -C program that prints the size of various types
- on the computer it is compiled and run on.
- * Returnn: Always 0 (Success)
+ * main - Aprogram that prints the size of various types on the
+ * computer it is compiled and run on
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
