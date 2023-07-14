@@ -2,11 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - A program that assin a random value for var n and check it 
- *
+ * main - A program that assin a random value for var n and check it
  * Return: Always 0 (Success)
- *
- */
+*/
 int main(void)
 {
 int n;
