@@ -1,15 +1,15 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _islower - A program that prints alphabet in lower case
+ * _islower - A program that check alphabet in lower case
  *
- * @c - intiger character in ASCII
+ * @c : intiger character in ASCII
  *
- * Return: Always 0 (Success)
+ * Return: 1 if lower , 0 if not  (Success)
  */
 int _islower(int c)
 {
-	if (c <= 97 && c >= 122)
+	if (c >= 97 && c <= 122)
 	{
 		return (1);
 	}
