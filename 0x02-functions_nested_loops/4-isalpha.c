@@ -1,13 +1,13 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _islower - A program that check alphabet in lower or case
+ * _isalpha - A program that check alphabet in lower or case
  *
  * @c : intiger character in ASCII
  *
  * Return: 1 if lower , 0 if not  (Success)
  */
-int _islower(int c)
+int _isalpha(int c);
 {
 	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
 	{
