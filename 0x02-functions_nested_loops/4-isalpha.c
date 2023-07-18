@@ -7,7 +7,7 @@
  *
  * Return: 1 if lower , 0 if not  (Success)
  */
-int _isalpha(int c);
+int _isalpha(int c)
 {
 	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
 	{
