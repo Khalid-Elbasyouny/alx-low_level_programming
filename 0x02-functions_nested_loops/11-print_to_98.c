@@ -1,13 +1,42 @@
-#include "main.h"
-#include <stdio.h>
+#include<stdio.h>
 /**
- * _islower - A program that prints alphabet in lower case
+ * print_to_98- check the code
  *
- * @c : intiger character in ASCII
+ * @n : integer input
  *
- * Return: 1 if lower , 0 if not  (Success)
  */
-void times_table(void)
-{       
-        
-} 
+void print_to_98(int n)
+{
+if (n <= 98)
+{
+for (; n <= 98; n++)
+{
+if (n == 98)
+{
+printf("%d", n);
+putchar('\n');
+break;
+}
+else
+{
+printf("%d, ", n);
+}
+}
+}
+else
+{
+for (; n >= 98; n--)
+{
+if (n == 98)
+{
+printf("%d", n);
+putchar('\n');
+break;
+}
+else
+{
+printf("%d, ", n);
+}
+}
+}
+}
