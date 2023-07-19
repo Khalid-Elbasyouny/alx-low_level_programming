@@ -1,13 +1,15 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _islower - A program that prints alphabet in lower case
+ * add - A program that prints sum of two int
  *
- * @c : intiger character in ASCII
+ * @a : intiger character
  *
- * Return: 1 if lower , 0 if not  (Success)
+ * @b : intiger character
+ *
+ * Return:a + b
  */
-void times_table(void)
-{       
-        
-} 
+int add(int a, int b)
+{
+return (a + b);
+}
