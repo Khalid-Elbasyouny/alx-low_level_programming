@@ -7,7 +7,7 @@
  *
  * Return: intiger for the absoulute value
  */
-int _abs(s)
+int _abs(int s)
 {
 	if (s >= 0)
 	{
