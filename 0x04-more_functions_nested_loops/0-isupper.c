@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isupper - c function that chick the alphabet case 
+ * _isupper - c function that chick the alphabet case
  *
  * @c: char to check
  *
@@ -11,7 +11,7 @@
 int _isupper(int c)
 {
 	if (c >= 'A' && c <= 'Z')
-		return(1);
-	else 
-		return(0);
+		return (1);
+	else
+		return (0);
 }
