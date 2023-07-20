@@ -3,13 +3,13 @@
 /**
  * mul - c program to multiply 2 integers
  *
- * @c: first int 
- * @s: second int
+ * @a: first int
+ * @b: second int
  *
  * Return:the value of the multiplication
 */
 
 int mul(int a, int b)
 {
-	return (c * s);
+	return (a * b);
 }
