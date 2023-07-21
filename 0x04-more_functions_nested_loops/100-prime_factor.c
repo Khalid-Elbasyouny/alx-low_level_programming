@@ -19,7 +19,7 @@ int main(void)
 		max = 2;
 		n /= 2;
 	}
-	for (i = 3; i <= sqrt(n); i = i + 2)
+	for (i = 3; i <= n; i = i + 2)
 	{
 		while (n % i == 0)
 		{
@@ -29,6 +29,6 @@ int main(void)
 	}
 	if (n > 2)
 		max = n;
-	printf("%d\n", max);
+	printf("%d,\n", max);
 	return (0);
 }
