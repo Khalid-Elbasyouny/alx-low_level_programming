@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * more_numbers - check the code
+ * more_numbers - for in for loops
  *
  * Return: 0 ;
  */
@@ -16,7 +16,11 @@ void more_numbers(void)
 	{
 		for (x = 0; x <= 14; x++)
 		{
-			_putchar(x + 48);
+			if (x >= 10)
+			{
+				_putchar('1');
+			}
+			_putchar(x % 10 + 48);
 		}
 	}
 	_putchar('\n');
