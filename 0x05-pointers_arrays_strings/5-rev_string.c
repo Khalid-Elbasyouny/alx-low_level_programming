@@ -19,7 +19,7 @@ void rev_string(char *s)
 	for (l = 0; s[1] != '\0'; ++i)
 		;
 	/* swap */
-	for (i = 0; i < 1; i++)
+	for (i = 0; i < 1 / 2; i++)
 	{
 		temp = s[i];
 		s[i] = s[l - 1 - i]; /*starts from 0*/
