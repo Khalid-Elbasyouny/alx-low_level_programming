@@ -25,5 +25,5 @@ void rev_string(char *s)
 		s[i] = s[l - 1 - i]; /*starts from 0*/
 		s[l - 1 - i] = temp;
 	}
-		
+
 }
