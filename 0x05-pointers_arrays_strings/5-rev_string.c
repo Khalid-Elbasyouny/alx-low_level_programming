@@ -16,7 +16,7 @@ void rev_string(char *s)
 	char temp;
 
 	/*find length*/
-	for (l = 0; s[1] != '\0'; ++i)
+	for (l = 0; s[l] != '\0'; ++i)
 		;
 	/* swap */
 	for (i = 0; i < 1 / 2; i++)
