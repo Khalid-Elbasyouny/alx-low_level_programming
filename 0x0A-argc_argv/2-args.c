@@ -1,3 +1,6 @@
+#include <stdlib.h>
+#include <stdio.h>
+
 /**
  * main - a program prints all arguments it receives.
  *
