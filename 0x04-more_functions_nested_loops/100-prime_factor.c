@@ -29,6 +29,6 @@ int main(void)
 	}
 	if (n > 2)
 		max = n;
-	printf("%d,\n", max);
+	printf("%id\n");
 	return (0);
 }
