@@ -24,10 +24,10 @@ int wrdcnt(char *str)
 }
 /**
  * strtow - function that splits a string into words.
- * @str:string to spilit
+ * @*str:string to spilit
  * Return: 0
 */
-char **strtow(char *str)
+char **strow(char *str)
 {
 	int i, j, k, l, n = 0, wc = 0;
 	char **w;
