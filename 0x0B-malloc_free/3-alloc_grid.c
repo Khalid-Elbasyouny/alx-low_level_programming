@@ -34,7 +34,7 @@ int **alloc_grid(int width, int height)
 				free(mtd);
 				return (0);
 			}
-			for ( j = 0; j < width; j++)
+			for (j = 0; j < width; j++)
 				mtd[i][j] = 0;
 		}
 	}
