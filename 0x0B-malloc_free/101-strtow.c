@@ -5,7 +5,7 @@
  * Return: int
  *
 */
-int wrdcnt(char *str)
+int wrdcnt(char *s)
 {
 	int i, n = 0;
 
@@ -13,7 +13,7 @@ int wrdcnt(char *str)
 	{
 		if (s[i] == ' ')
 		{
-			if (s[i + 1] !+' ' && s[i + 1] != '\0')
+			if (s[i + 1] != ' ' && s[i + 1] != '\0')
 				n++;
 		}
 		else if (i == 0)
@@ -27,7 +27,7 @@ int wrdcnt(char *str)
  * @*str:string to spilit
  * Return: 0
 */
-char **strow(char *str)
+char **strtow(char *str)
 {
 	int i, j, k, l, n = 0, wc = 0;
 	char **w;
