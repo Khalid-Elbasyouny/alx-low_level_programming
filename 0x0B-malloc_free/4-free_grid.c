@@ -4,10 +4,10 @@
 /**
  * free_grid - function that function that frees a 2 dimensional grid
  *
- * @**grid: 2 Dim grid
+ * @grid: 2 Dim grid
  * @height: int for height
  *
- * Return: void 
+ * Return: void
  *
 */
 void free_grid(int **grid, int height)
