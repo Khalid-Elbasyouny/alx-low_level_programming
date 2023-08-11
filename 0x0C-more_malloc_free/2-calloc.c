@@ -1,48 +1,24 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 /**
- *  *_memoset - a function that fill the memory
+ * _calloc - allocates memory for an array
+ * 
+ * @nmemb: number of elements
+ * @size: byte size of each element
  *
- * @s: pointer
- * @c: the char to set
- * @n: maxmun amount of bytes
- *
- * Return: pointer  (sucesss)
- *
-*/
-
-char *_memoset(char *s, char c, unsigned int n)
-{
-	char *ptr = s;
-
-	while (n--)
-		*s++ = c;
-	return (ptr);
-}
-
-/**
- * _calloc - a function that  allocates memory for an array
- *
- * @nmemb: a
- * @size: a
- * Return: pointer  (sucesss)
- *
-*/
-
+ * Return: void pointer to array space
+ */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	void *m;
+	char *v;
 
-	if (size == 0 || nmemb == 0)
+	if (!nmemb || !size)
 		return (NULL);
-	m = malloc(sizeof(int) * nmemb);
-
-	if (m == 0)
+	v = malloc(nmemb * size);
+	if (!v)
 		return (NULL);
-
-	_memoset(m, 0, sizeof(int) * nmemb);
-
-	return (m);
+	nmemb *= size;
+	while (nmemb--)
+		v[nmemb] = 0;
+	return (v);
 }
