@@ -14,22 +14,10 @@
 
 void *malloc_checked(unsigned int b)
 {
-	int i = 0, size = 0;
-	int *n;
+	int *ptr = malloc(b);
 
-	if (b == 0)
+	if (ptr == 0)
 		exit(98);
-	for (; size != '\0'; size++)
-		;
-	n = malloc(size * sizeof(b) + 1);
-	if (n ==  0)
-	{
-		exit(98);
-	}
-	else
-	{
-		for (; i < size; i++)
-			n[i] = i;
-	}
-	return (n);
+
+	return (ptr);
 }
