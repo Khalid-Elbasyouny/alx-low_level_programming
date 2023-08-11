@@ -42,7 +42,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (m == 0)
 		return (NULL);
 
-	_memoset(m, 0 ,sizeof(int) * nmemb);
+	_memoset(m, 0, sizeof(int) * nmemb);
 	
 	return (m);
 }
