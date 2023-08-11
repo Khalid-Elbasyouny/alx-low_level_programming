@@ -21,7 +21,7 @@ void *malloc_checked(unsigned int b)
 		exit(98);
 	for (; size != '\0'; size++)
 		;
-	n = (int *)malloc(size * sizeof(b) + 1);
+	n = malloc(size * sizeof(b) + 1);
 	if (n ==  0)
 	{
 		exit(98);
