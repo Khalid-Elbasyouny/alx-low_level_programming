@@ -5,8 +5,8 @@
  * print_dog - that prints a struct dog
  *
  * @d: dog to print
- * Return: void
  *
+ * Return: void
  */
 
 void print_dog(struct dog *d)
