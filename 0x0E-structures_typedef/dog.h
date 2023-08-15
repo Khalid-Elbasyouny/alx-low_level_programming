@@ -2,12 +2,12 @@
 #define dog_H
 
 /**
- * description: long dof struct 
- * struct dog _a struct dog
+ * struct dog - a dog strrct
  * @name: dog's name
  * @age: dog's age
  * @owner:  the owner's name
  *
+ * Description: long dog struct in a big kitty world
  *
  */
 struct dog
