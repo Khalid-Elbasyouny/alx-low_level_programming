@@ -7,4 +7,4 @@ main:
 	call	printf
 
 section		.data
-	pop_up db 'Hello, holberton', 0xa, 0
+	pop_up db 'Hello, Holberton', 0xa, 0
